@@ -1709,7 +1709,7 @@ OSH Park compatible</description>
 <element name="U1" library="balto" package="SOIC8-POWERPAD" value="TPS2378" x="19.7104" y="16.0528"/>
 <element name="J1" library="balto" package="RJ45-8-SHIELD" value="RJ45-8-SHIELD-PTH" x="5.08" y="16.0528" rot="R270"/>
 <element name="BOX1" library="hammond" package="1551G" value="HAMMOND-BOX-1551G" x="0" y="0"/>
-<element name="B1" library="rectifier" package="MBS" value="B1S" x="11.7856" y="3.4544" rot="R90"/>
+<element name="B1" library="rectifier" package="MBS" value="B1S" x="9.144" y="4.064"/>
 <element name="C1" library="rcl" package="C0603" value="10n" x="7.5184" y="18.288" rot="MR0"/>
 <element name="R1" library="rcl" package="R0603" value="75" x="4.4704" y="18.288" rot="MR0"/>
 <element name="C2" library="rcl" package="C0603" value="10n" x="7.5184" y="15.24" rot="MR0"/>
@@ -1718,7 +1718,7 @@ OSH Park compatible</description>
 <element name="R2" library="rcl" package="R0603" value="75" x="4.4704" y="15.24" rot="MR0"/>
 <element name="R3" library="rcl" package="R0603" value="75" x="4.4704" y="16.8656" rot="MR0"/>
 <element name="R4" library="rcl" package="R0603" value="75" x="4.4704" y="13.8176" rot="MR0"/>
-<element name="B2" library="rectifier" package="MBS" value="B1S" x="11.7856" y="3.4544" rot="MR270"/>
+<element name="B2" library="rectifier" package="MBS" value="B1S" x="14.224" y="4.064"/>
 <element name="D1" library="SparkFun-DiscreteSemi" package="SMA-DIODE" value="SMAJ58A" x="19.7104" y="5.8928" rot="R180"/>
 <element name="C7" library="rcl" package="C0603" value="1n" x="19.7104" y="3.2512"/>
 <element name="C8" library="rcl" package="C0603" value=".1u" x="19.7104" y="8.5344"/>
@@ -1755,14 +1755,7 @@ OSH Park compatible</description>
 <contactref element="J1" pad="1"/>
 <contactref element="J1" pad="2"/>
 <contactref element="C1" pad="1"/>
-<contactref element="B1" pad="AC1"/>
-<wire x1="8.7856" y1="2.1844" x2="10.7188" y2="2.1844" width="0.4064" layer="1"/>
-<wire x1="10.7188" y1="2.1844" x2="12.5984" y2="4.064" width="0.4064" layer="1"/>
-<wire x1="12.5984" y1="4.064" x2="12.5984" y2="8.9408" width="0.4064" layer="1"/>
 <wire x1="15.0368" y1="18.161" x2="13.97" y2="19.2278" width="0.4064" layer="1"/>
-<wire x1="12.5984" y1="8.9408" x2="13.0048" y2="9.3472" width="0.4064" layer="1"/>
-<wire x1="13.0048" y1="9.3472" x2="14.6304" y2="9.3472" width="0.4064" layer="1"/>
-<wire x1="14.6304" y1="9.3472" x2="15.8496" y2="10.5664" width="0.4064" layer="1"/>
 <wire x1="15.8496" y1="10.5664" x2="15.8496" y2="14.8336" width="0.4064" layer="1"/>
 <wire x1="15.8496" y1="14.8336" x2="15.0368" y2="15.6464" width="0.4064" layer="1"/>
 <wire x1="15.0368" y1="15.6464" x2="15.0368" y2="18.161" width="0.4064" layer="1"/>
@@ -1770,57 +1763,60 @@ OSH Park compatible</description>
 <wire x1="12.7" y1="19.2278" x2="11.43" y2="20.4978" width="0.4064" layer="1"/>
 <wire x1="11.43" y1="20.4978" x2="9.2202" y2="18.288" width="0.4064" layer="16"/>
 <wire x1="9.2202" y1="18.288" x2="8.3684" y2="18.288" width="0.4064" layer="16"/>
+<contactref element="B2" pad="AC2"/>
+<wire x1="15.8496" y1="10.5664" x2="15.494" y2="10.2108" width="0.4064" layer="1"/>
+<wire x1="15.494" y1="10.2108" x2="15.494" y2="7.064" width="0.4064" layer="1"/>
 </signal>
 <signal name="TAP2">
 <contactref element="J1" pad="6"/>
 <contactref element="J1" pad="3"/>
 <contactref element="C3" pad="1"/>
-<contactref element="B1" pad="AC2"/>
 <wire x1="13.97" y1="14.1478" x2="15.24" y2="12.8778" width="0.4064" layer="1"/>
 <wire x1="15.24" y1="12.8778" x2="15.24" y2="11.176" width="0.4064" layer="1"/>
-<wire x1="15.24" y1="11.176" x2="14.224" y2="10.16" width="0.4064" layer="1"/>
-<wire x1="14.224" y1="10.16" x2="12.8016" y2="10.16" width="0.4064" layer="1"/>
-<wire x1="12.8016" y1="10.16" x2="11.5824" y2="8.9408" width="0.4064" layer="1"/>
-<wire x1="11.5824" y1="8.9408" x2="11.5824" y2="5.8928" width="0.4064" layer="1"/>
-<wire x1="11.5824" y1="5.8928" x2="10.414" y2="4.7244" width="0.4064" layer="1"/>
-<wire x1="8.7856" y1="4.7244" x2="10.414" y2="4.7244" width="0.4064" layer="1"/>
 <wire x1="13.97" y1="14.1478" x2="13.97" y2="14.8844" width="0.4064" layer="1"/>
 <wire x1="13.97" y1="14.8844" x2="11.43" y2="17.4244" width="0.4064" layer="1"/>
 <wire x1="11.43" y1="17.4244" x2="11.43" y2="17.9578" width="0.4064" layer="1"/>
 <wire x1="11.43" y1="17.9578" x2="10.3378" y2="16.8656" width="0.4064" layer="16"/>
 <wire x1="10.3378" y1="16.8656" x2="8.3684" y2="16.8656" width="0.4064" layer="16"/>
+<contactref element="B2" pad="AC1"/>
+<wire x1="15.24" y1="11.176" x2="12.954" y2="8.89" width="0.4064" layer="1"/>
+<wire x1="12.954" y1="8.89" x2="12.954" y2="7.064" width="0.4064" layer="1"/>
 </signal>
 <signal name="TAP3">
 <contactref element="J1" pad="4"/>
 <contactref element="J1" pad="5"/>
 <contactref element="C2" pad="1"/>
-<contactref element="B2" pad="AC1"/>
 <wire x1="12.8016" y1="12.3952" x2="12.8016" y2="13.6144" width="0.4064" layer="16"/>
 <wire x1="12.8016" y1="13.6144" x2="11.43" y2="14.986" width="0.4064" layer="16"/>
 <wire x1="11.43" y1="14.986" x2="11.43" y2="15.4178" width="0.4064" layer="16"/>
-<wire x1="8.7856" y1="4.7244" x2="10.414" y2="4.7244" width="0.4064" layer="16"/>
-<wire x1="10.414" y1="4.7244" x2="11.5824" y2="5.8928" width="0.4064" layer="16"/>
-<wire x1="11.5824" y1="5.8928" x2="11.5824" y2="11.176" width="0.4064" layer="16"/>
 <wire x1="11.5824" y1="11.176" x2="12.8016" y2="12.3952" width="0.4064" layer="16"/>
 <wire x1="11.43" y1="15.4178" x2="12.7" y2="16.6878" width="0.4064" layer="16"/>
 <wire x1="12.7" y1="16.6878" x2="13.97" y2="16.6878" width="0.4064" layer="16"/>
 <wire x1="11.43" y1="15.4178" x2="11.2522" y2="15.24" width="0.4064" layer="16"/>
 <wire x1="11.2522" y1="15.24" x2="8.3684" y2="15.24" width="0.4064" layer="16"/>
+<contactref element="B1" pad="AC1"/>
+<wire x1="7.874" y1="7.064" x2="7.874" y2="8.2804" width="0.4064" layer="1"/>
+<wire x1="7.874" y1="8.2804" x2="8.128" y2="8.5344" width="0.4064" layer="1"/>
+<via x="8.128" y="8.5344" extent="1-16" drill="0.6"/>
+<wire x1="11.5824" y1="11.176" x2="10.7696" y2="11.176" width="0.4064" layer="16"/>
+<wire x1="10.7696" y1="11.176" x2="8.128" y2="8.5344" width="0.4064" layer="16"/>
 </signal>
 <signal name="TAP4">
 <contactref element="J1" pad="8"/>
 <contactref element="J1" pad="7"/>
 <contactref element="C4" pad="1"/>
-<contactref element="B2" pad="AC2"/>
 <wire x1="13.97" y1="11.6078" x2="13.97" y2="11.5316" width="0.4064" layer="16"/>
 <wire x1="13.97" y1="11.5316" x2="12.5984" y2="10.16" width="0.4064" layer="16"/>
-<wire x1="12.5984" y1="10.16" x2="12.5984" y2="4.064" width="0.4064" layer="16"/>
-<wire x1="12.5984" y1="4.064" x2="10.7188" y2="2.1844" width="0.4064" layer="16"/>
-<wire x1="8.7856" y1="2.1844" x2="10.7188" y2="2.1844" width="0.4064" layer="16"/>
 <wire x1="13.97" y1="11.6078" x2="12.7" y2="11.6078" width="0.4064" layer="1"/>
 <wire x1="12.7" y1="11.6078" x2="11.43" y2="12.8778" width="0.4064" layer="1"/>
 <wire x1="11.43" y1="12.8778" x2="10.4902" y2="13.8176" width="0.4064" layer="16"/>
 <wire x1="10.4902" y1="13.8176" x2="8.3684" y2="13.8176" width="0.4064" layer="16"/>
+<contactref element="B1" pad="AC2"/>
+<wire x1="10.414" y1="7.064" x2="10.414" y2="8.2804" width="0.4064" layer="1"/>
+<wire x1="10.414" y1="8.2804" x2="10.16" y2="8.5344" width="0.4064" layer="1"/>
+<via x="10.16" y="8.5344" extent="1-16" drill="0.6"/>
+<wire x1="12.5984" y1="10.16" x2="11.7856" y2="10.16" width="0.4064" layer="16"/>
+<wire x1="11.7856" y1="10.16" x2="10.16" y2="8.5344" width="0.4064" layer="16"/>
 </signal>
 <signal name="GNDA">
 <contactref element="J1" pad="P$1"/>
@@ -1869,14 +1865,6 @@ OSH Park compatible</description>
 <contactref element="C9" pad="1"/>
 <contactref element="C11" pad="1"/>
 <contactref element="IC1" pad="3"/>
-<wire x1="14.7856" y1="4.7244" x2="16.0556" y2="3.4544" width="0.4064" layer="16"/>
-<wire x1="16.0556" y1="3.4544" x2="16.256" y2="3.4544" width="0.4064" layer="16"/>
-<wire x1="14.7856" y1="2.1844" x2="16.0556" y2="3.4544" width="0.4064" layer="1"/>
-<wire x1="16.0556" y1="3.4544" x2="16.256" y2="3.4544" width="0.4064" layer="1"/>
-<via x="16.256" y="3.4544" extent="1-16" drill="0.6096"/>
-<wire x1="16.256" y1="3.4544" x2="17.0688" y2="2.6416" width="0.4064" layer="1"/>
-<wire x1="17.0688" y1="2.6416" x2="18.288" y2="2.6416" width="0.4064" layer="1"/>
-<wire x1="18.288" y1="2.6416" x2="18.8604" y2="3.214" width="0.4064" layer="1"/>
 <wire x1="18.8604" y1="3.214" x2="18.8604" y2="3.2512" width="0.4064" layer="1"/>
 <wire x1="18.8604" y1="3.2512" x2="17.5604" y2="4.5512" width="0.4064" layer="1"/>
 <wire x1="17.5604" y1="4.5512" x2="17.5604" y2="5.8928" width="0.4064" layer="1"/>
@@ -1909,6 +1897,14 @@ OSH Park compatible</description>
 <wire x1="24.384" y1="14.4272" x2="24.9936" y2="13.8176" width="0.4064" layer="1"/>
 <wire x1="24.9936" y1="13.8176" x2="32.7914" y2="13.8176" width="0.4064" layer="1"/>
 <wire x1="32.7914" y1="13.8176" x2="32.8676" y2="13.7414" width="0.4064" layer="1"/>
+<wire x1="9.7164" y1="3.214" x2="7.874" y2="1.3716" width="0.4064" layer="1"/>
+<wire x1="7.874" y1="1.064" x2="7.874" y2="1.3716" width="0.4064" layer="1"/>
+<wire x1="9.7164" y1="3.214" x2="12.6356" y2="3.214" width="0.4064" layer="1"/>
+<wire x1="12.6356" y1="3.214" x2="13.0048" y2="2.8448" width="0.4064" layer="1"/>
+<wire x1="13.0048" y1="2.8448" x2="13.4112" y2="3.2512" width="0.4064" layer="1"/>
+<wire x1="13.4112" y1="3.2512" x2="18.8604" y2="3.2512" width="0.4064" layer="1"/>
+<wire x1="13.0048" y1="2.8448" x2="13.0048" y2="1.1148" width="0.4064" layer="1"/>
+<wire x1="13.0048" y1="1.1148" x2="12.954" y2="1.064" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$3">
 <contactref element="U1" pad="2"/>
@@ -1939,7 +1935,7 @@ OSH Park compatible</description>
 <vertex x="15.8496" y="7.9248"/>
 <vertex x="5.08" y="7.9248"/>
 </polygon>
-<via x="13.6144" y="3.4544" extent="1-16" drill="0.6096"/>
+<via x="14.224" y="1.016" extent="1-16" drill="0.6096"/>
 <polygon width="0.2032" layer="16" isolate="0.254">
 <vertex x="5.08" y="-0.6096"/>
 <vertex x="23.1648" y="-0.6096"/>
@@ -1950,8 +1946,10 @@ OSH Park compatible</description>
 </polygon>
 <via x="18.8976" y="16.0528" extent="1-16" drill="0.6096"/>
 <via x="20.5232" y="16.0528" extent="1-16" drill="0.6096"/>
-<via x="13.6144" y="6.096" extent="1-16" drill="0.6096"/>
-<via x="13.6144" y="1.016" extent="1-16" drill="0.6096"/>
+<via x="9.144" y="1.016" extent="1-16" drill="0.6096"/>
+<via x="11.5824" y="1.016" extent="1-16" drill="0.6096"/>
+<via x="16.8656" y="1.016" extent="1-16" drill="0.6096"/>
+<via x="7.3152" y="2.6416" extent="1-16" drill="0.6096"/>
 </signal>
 <signal name="GND">
 <contactref element="LED1" pad="C"/>
@@ -2236,6 +2234,10 @@ OSH Park compatible</description>
 </signal>
 </signals>
 <errors>
+<approved hash="18,29,bf9df10a0efd9675"/>
+<approved hash="18,29,958e0f19f68dba05"/>
+<approved hash="18,29,044f0b94f593fc70"/>
+<approved hash="18,29,0c5f0464fa63f440"/>
 <approved hash="7,39,93c1e47432973d3d"/>
 <approved hash="7,39,5c68d3f673f08471"/>
 <approved hash="7,39,9025ece63a253edd"/>
@@ -2284,10 +2286,6 @@ OSH Park compatible</description>
 <approved hash="7,40,33f9e401e4c5333d"/>
 <approved hash="7,40,3389e471e44d33b5"/>
 <approved hash="7,40,33e9e411e4813379"/>
-<approved hash="18,29,bf9df10a0efd9675"/>
-<approved hash="18,29,958e0f19f68dba05"/>
-<approved hash="18,29,044f0b94f593fc70"/>
-<approved hash="18,29,0c5f0464fa63f440"/>
 <approved hash="19,1,a394b176b523a7c1"/>
 <approved hash="19,1,c397f175f523c7c1"/>
 </errors>

@@ -8808,9 +8808,9 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <junction x="53.34" y="157.48"/>
 </segment>
 <segment>
-<pinref part="B1" gate="G$1" pin="AC1"/>
-<wire x1="81.28" y1="154.94" x2="73.66" y2="154.94" width="0.1524" layer="91"/>
-<label x="73.66" y="154.94" size="1.778" layer="95"/>
+<pinref part="B2" gate="G$1" pin="AC2"/>
+<wire x1="121.92" y1="154.94" x2="129.54" y2="154.94" width="0.1524" layer="91"/>
+<label x="129.54" y="154.94" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="TAP2" class="0">
@@ -8830,9 +8830,9 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <junction x="38.1" y="152.4"/>
 </segment>
 <segment>
-<pinref part="B1" gate="G$1" pin="AC2"/>
-<wire x1="91.44" y1="154.94" x2="99.06" y2="154.94" width="0.1524" layer="91"/>
-<label x="99.06" y="154.94" size="1.778" layer="95" rot="MR0"/>
+<pinref part="B2" gate="G$1" pin="AC1"/>
+<wire x1="111.76" y1="154.94" x2="104.14" y2="154.94" width="0.1524" layer="91"/>
+<label x="104.14" y="154.94" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TAP3" class="0">
@@ -8852,9 +8852,9 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <junction x="45.72" y="154.94"/>
 </segment>
 <segment>
-<pinref part="B2" gate="G$1" pin="AC1"/>
-<wire x1="111.76" y1="154.94" x2="104.14" y2="154.94" width="0.1524" layer="91"/>
-<label x="104.14" y="154.94" size="1.778" layer="95"/>
+<pinref part="B1" gate="G$1" pin="AC1"/>
+<wire x1="81.28" y1="154.94" x2="73.66" y2="154.94" width="0.1524" layer="91"/>
+<label x="73.66" y="154.94" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TAP4" class="0">
@@ -8874,9 +8874,9 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <junction x="30.48" y="149.86"/>
 </segment>
 <segment>
-<pinref part="B2" gate="G$1" pin="AC2"/>
-<wire x1="121.92" y1="154.94" x2="129.54" y2="154.94" width="0.1524" layer="91"/>
-<label x="129.54" y="154.94" size="1.778" layer="95" rot="MR0"/>
+<pinref part="B1" gate="G$1" pin="AC2"/>
+<wire x1="91.44" y1="154.94" x2="99.06" y2="154.94" width="0.1524" layer="91"/>
+<label x="99.06" y="154.94" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="GNDA" class="0">
