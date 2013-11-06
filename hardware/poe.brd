@@ -1767,7 +1767,7 @@ OSH Park compatible</description>
 </autorouter>
 <elements>
 <element name="LED1" library="led" package="SML0805" value="" x="53.6448" y="22.9616" rot="R90"/>
-<element name="R7" library="rcl" package="R0603" value="12k1" x="53.6448" y="26.416" rot="R270"/>
+<element name="R7" library="rcl" package="R0603" value="15k" x="53.6448" y="26.416" rot="R270"/>
 <element name="C18" library="rcl" package="C0603" value=".1u" x="70.104" y="35.3568" rot="MR0"/>
 <element name="U1" library="balto" package="SOIC8-POWERPAD" value="TPS2378" x="43.688" y="24.7904" rot="R270"/>
 <element name="J1" library="balto" package="RJ45-8-SHIELD" value="RJ45-8-SHIELD-PTH" x="43.4848" y="5.08"/>
@@ -1802,13 +1802,13 @@ OSH Park compatible</description>
 <element name="R10" library="rcl" package="R0603" value="24k9" x="37.7952" y="25.1968"/>
 <element name="R11" library="rcl" package="R0603" value="tbd" x="37.7952" y="23.7744" rot="R180"/>
 <element name="LED2" library="led" package="SML0805" value="" x="52.0192" y="22.9616" rot="R90"/>
-<element name="R12" library="rcl" package="R0603" value="12k1" x="52.0192" y="26.416" rot="R270"/>
+<element name="R12" library="rcl" package="R0603" value="15k" x="52.0192" y="26.416" rot="R270"/>
 <element name="R13" library="rcl" package="R0603" value="1k" x="86.7664" y="31.0896" rot="R180"/>
 <element name="LED3" library="led" package="SML0805" value="" x="83.5152" y="31.0896"/>
 <element name="C9" library="rcl" package="C1206" value="22u" x="57.5056" y="25.8064" rot="R180"/>
 <element name="X2" library="con-phoenix-381_l" package="MC2" value="MC2" x="36.1696" y="38.608" rot="R180"/>
 <element name="X3" library="balto" package="USB" value="" x="67.6656" y="46.5328" rot="R180"/>
-<element name="R14" library="rcl" package="R0603" value="10k" x="58.3184" y="19.1008" rot="R180"/>
+<element name="R14" library="rcl" package="R0603" value="47k" x="58.3184" y="19.1008" rot="R180"/>
 <element name="R15" library="rcl" package="R0603" value="dnp" x="87.7824" y="20.32" rot="R270"/>
 <element name="R16" library="rcl" package="R0603" value="dnp" x="87.7824" y="17.0688" rot="R90"/>
 <element name="R17" library="rcl" package="R0603" value="10k" x="49.1744" y="26.8224"/>
