@@ -8569,7 +8569,7 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <part name="C7" library="rcl" deviceset="C-EU" device="C0603" value="1n"/>
 <part name="C8" library="rcl" deviceset="C-EU" device="C0603" value=".1u"/>
 <part name="R10" library="rcl" deviceset="R-EU_" device="R0603" value="24k9"/>
-<part name="R11" library="rcl" deviceset="R-EU_" device="R0603" value="tbd"/>
+<part name="R11" library="rcl" deviceset="R-EU_" device="R0603" value="243"/>
 <part name="P+2" library="supply1" deviceset="VCC" device=""/>
 <part name="P+3" library="supply1" deviceset="VCC" device=""/>
 <part name="SUPPLY1" library="supply2" deviceset="DGND" device=""/>
@@ -8591,12 +8591,12 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="IC1" library="SparkFun-PowerIC" deviceset="V_REG_LM1117" device="SOT223"/>
 <part name="P+1" library="supply1" deviceset="VCC" device=""/>
-<part name="R5" library="rcl" deviceset="R-EU_" device="R1206" value="10"/>
-<part name="C5" library="rcl" deviceset="C-EU" device="C0805" value="10u"/>
+<part name="R5" library="rcl" deviceset="R-EU_" device="R1206" value="47"/>
+<part name="C5" library="rcl" deviceset="C-EU" device="C0805" value="DNP"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="D10" library="balto" deviceset="LED_XH-G" device=""/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
-<part name="R6" library="rcl" deviceset="R-EU_" device="R1206" value="10"/>
+<part name="R6" library="rcl" deviceset="R-EU_" device="R1206" value="DNP"/>
 <part name="D2" library="balto" deviceset="LED_XH-G" device=""/>
 <part name="D3" library="balto" deviceset="LED_XH-G" device=""/>
 <part name="D4" library="balto" deviceset="LED_XH-G" device=""/>
@@ -8637,6 +8637,9 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <wire x1="119.38" y1="2.54" x2="2.54" y2="2.54" width="0.1524" layer="97"/>
 <wire x1="2.54" y1="2.54" x2="2.54" y2="114.3" width="0.1524" layer="97"/>
 <text x="5.08" y="106.68" size="5.08" layer="97">Main LEDs</text>
+<text x="180.34" y="109.22" size="1.778" layer="97" rot="R90">68//39</text>
+<text x="180.34" y="88.9" size="1.778" layer="97" rot="R90">1000/330</text>
+<text x="233.68" y="86.36" size="1.778" layer="97">68</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>

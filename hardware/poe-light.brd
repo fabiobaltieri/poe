@@ -1723,17 +1723,17 @@ OSH Park compatible</description>
 <element name="C7" library="rcl" package="C0603" value="1n" x="19.7104" y="3.2512"/>
 <element name="C8" library="rcl" package="C0603" value=".1u" x="19.7104" y="8.5344"/>
 <element name="R10" library="rcl" package="R0603" value="24k9" x="18.0848" y="10.7696"/>
-<element name="R11" library="rcl" package="R0603" value="tbd" x="21.336" y="10.7696"/>
+<element name="R11" library="rcl" package="R0603" value="243" x="21.336" y="10.7696"/>
 <element name="LED2" library="led" package="SML0805" value="" x="21.9456" y="24.1808" rot="R180"/>
 <element name="R12" library="rcl" package="R0603" value="12k1" x="18.6944" y="24.1808"/>
 <element name="C9" library="rcl" package="C1206" value="22u" x="27.0256" y="23.368"/>
 <element name="R17" library="rcl" package="R0603" value="10k" x="18.6944" y="22.352"/>
 <element name="C11" library="rcl" package="C1206" value="22u" x="27.0256" y="25.4"/>
 <element name="IC1" library="SparkFun-PowerIC" package="SOT223" value="" x="35.9664" y="16.0528" rot="R270"/>
-<element name="R5" library="rcl" package="R1206" value="10" x="30.48" y="17.272" rot="R270"/>
-<element name="C5" library="rcl" package="C0805" value="10u" x="26.2128" y="17.272" rot="R90"/>
+<element name="R5" library="rcl" package="R1206" value="47" x="30.48" y="17.272" rot="R270"/>
+<element name="C5" library="rcl" package="C0805" value="DNP" x="26.2128" y="17.272" rot="R90"/>
 <element name="D10" library="balto" package="CREE_XHG" value="LED_XH-G" x="26.416" y="20.32" rot="MR90"/>
-<element name="R6" library="rcl" package="R1206" value="10" x="28.2448" y="17.272" rot="R270"/>
+<element name="R6" library="rcl" package="R1206" value="DNP" x="28.2448" y="17.272" rot="R270"/>
 <element name="D2" library="balto" package="CREE_XHG" value="LED_XH-G" x="26.416" y="16.4592" rot="MR90"/>
 <element name="D3" library="balto" package="CREE_XHG" value="LED_XH-G" x="26.416" y="12.3952" rot="MR90"/>
 <element name="D4" library="balto" package="CREE_XHG" value="LED_XH-G" x="26.416" y="8.3312" rot="MR90"/>
