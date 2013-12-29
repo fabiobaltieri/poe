@@ -1,6 +1,8 @@
 PoE Flashlight
 ==============
 
+http://fabiobaltieri.com/2013/12/29/power-over-ethernet-flashlight/
+
 This project is small PoE flashlight using the TI TPS2378.
 
 License
